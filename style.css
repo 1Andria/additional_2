@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 1440px;
+    height: 800px;
+    position: relative;
+}
+.image{
+    width: 1440px;
+    height: 800px;
+    
+}
+.heading{
+    color: white;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.521px;
+    position: absolute;
+    left: 165px;
+    top: 290px;
+}
+.paragraph{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    position: absolute;
+    left: 165px;
+    top: 432px;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: absolute;
+    top: 121px;
+    right: 165px;
+
+}
+.days_free{
+    width: 540px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free_heading{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    letter-spacing: 0.268px;
+}
+.free_span{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+}
+.form{
+    width: 540px;
+    height: 474px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.name_input{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+}
+.name_input:focus{
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+.warning_name{
+    display: none;
+}
+.name_input:focus+.warning_name{
+    display: block;
+    color: rgb(78, 1, 1);
+}
+.lastname_input{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+}
+.lastname_input:focus{
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+.warning_lastname{
+    display: none;
+}
+.lastname_input:focus+.warning_lastname{
+    display: block;
+    color:burlywood;
+}
+.email{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+}
+.email:focus{
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+.warning_email{
+    display: none;
+}
+.email:focus+.warning_email{
+    display: block;
+    color: chartreuse;
+}
+.password{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background: #FFF;
+}
+.password:focus{
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+.warning_password{
+    display: none;
+}
+.password:focus+.warning_password{
+    display: block;
+    color:blue;
+}
+.button{
+    width: 460px;
+    height: 56px;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    border: none;
+}
+.but_heading{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; 
+    letter-spacing: 1px;
+}
+.last_paragraph{
+    color: #BAB7D4;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.last_span{
+    color: #FF7979;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
